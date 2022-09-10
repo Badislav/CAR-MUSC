@@ -1,0 +1,1112 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+	/*overflow-x:hidden;*/
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+nav{
+	display: flex;
+	justify-content: space-between;	
+	position: absolute;
+	left: 312px;
+	margin: 0 auto;	
+	width: 66.8vw;
+	margin-top: 25.6px;
+	z-index: 5;
+}
+.nav_menu_left{
+	display: flex;
+	justify-content: space-between;
+	width: 30vw;
+	height: 29px;
+	z-index: 5;
+}
+.nav_left_items{
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 28.8px;
+	letter-spacing: 0.03em;
+	font-family: "ReformaGroteskMediumC";
+	color: #fff;
+}
+.nav_menu_right{
+	display: flex;	
+	justify-content: flex-end;		
+	flex-direction: column;
+	z-index: 5;
+}
+.line{
+	width: 40px;
+	height: 3px;
+	background: #DB3138;
+	margin-bottom: 5px;	
+}
+.position_left{
+	position: relative;	
+	right: 10px;	
+}
+.block_1{
+	width: 100vw;	
+	height: 1000px;
+	/*position: absolute;*/
+	top: 0;	
+	background-image: url("img/Rectangle 64.jpg");
+	/*background-size: 1920px 1000px;*/
+}
+.block_1_title{
+	display: flex;	
+	justify-content: center;	
+	font-family: 'ReformaGroteskBoldC';
+	font-weight: 700;
+	font-size: 150px;
+	line-height: 125%;
+	color: #DB3138;
+	position:  relative;
+	top: 197px;
+	color: #fff;
+}
+.under_title{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 10vw;
+	position: relative;
+	top: 208px;
+}
+.rectangle{
+	/*display: flex;
+	justify-content: space-between;*/
+	margin: 0 auto;
+	width: 10px;
+	height: 10px;
+	background: #DB3138;
+	transform: rotate(-45deg);
+	flex-direction: row;
+}
+.block_1_center_text{
+	display: flex;
+	margin: 0 auto;
+	width: 437px;
+	height: 96px;
+	position: relative;
+	top: 248px;
+}
+.center_text{
+	width: 437px;
+	height: 96px;
+	font-family: 'ReformaGroteskMediumC';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 120%;
+	text-align: center;
+	color: #fff;/*изменить*/
+}
+.block_1_btn{
+	display: flex;
+	margin: 0 auto;
+	width: 160px;
+	height: 61px;
+	position: relative;
+	top: 298px;
+}
+.btn_full{
+	width: 160px;
+	height: 61px;
+}
+.btl_left{
+	width: 110px;
+	height: 61px;
+	background-color: #DB3138;
+}
+.btn_text{
+	position: absolute;
+	top: 13px;
+	left: 30px;
+	width: 119px;
+	height: 34px;
+	font-family: ReformaGroteskMediumC;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+.block_1_info{
+	display: flex;	
+	justify-content: space-between;	
+	width: 100vw;	
+	height: 213px;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+.info_block{
+	width: 33.33vw;
+	height: 213px;
+}
+.info_title{
+	text-transform: uppercase;
+	font-family: ReformaGroteskMediumC;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 25px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	position: relative;
+	/*top: 25%;*/
+}
+.info_subtitle{
+	width: 265px;
+	height: 68px;
+	margin: 0 auto;
+	position: relative;
+	top: 10%;
+	text-transform: uppercase;
+	font-family: ReformaGroteskMediumC;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #DB3138;
+
+}
+.top_pos{
+	top: 15%;
+}
+.info_subtitle_href{
+	width: 265px;
+	height: 68px;
+	margin: 0 auto;
+	position: relative;
+	top: 10%;
+	text-transform: uppercase;
+	font-family: ReformaGroteskMediumC;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #DB3138;
+}
+.height{
+	height: 44px;
+}
+.block_2{
+	width: 100vw;
+	height: 100vh;
+	background: #141414;
+}
+.block_2_2{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	position: relative;
+	top: 180px;
+	width: 1296px;
+	height: 800px;
+}
+.block_2_2_left{
+	width: 636px;
+	height: 500px;
+}
+.block_2_title{
+	width: 636px;
+	height: 146px;
+	font-family: ReformaGroteskDemiC;
+	font-size: 52px;
+	font-weight: 600;
+	line-height: 73px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.rectangle_2{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 140px;
+	height: 20px;
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+.rectangle_2_2{
+	width: 10px;
+	height: 10px;
+	background: #DB3138;
+	transform: rotate(-45deg);
+}
+.subtitle{
+	width: 526px;
+	font-family: ReformaGroteskMediumC;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0.03em;
+	text-align: left;
+	color: #FFFFFF;
+
+}
+.block_2_2_right{
+	display: flex;
+	justify-content: space-between;
+	width: 636px;
+	height: 708px;
+}
+.left_side_items{
+	width: 318px;
+	height: 177px;
+	border: 1px solid #898989;
+}
+.left_side{
+	width: 318px;
+	height: 708px;
+}
+.right_side{
+	width: 318px;
+	height: 708px;
+}
+.mini_title{
+	margin-top: 20px;
+	font-family: ReformaGroteskDemiC;
+	font-size: 52px;
+	font-weight: 600;
+	line-height: 73px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #DB3138;
+
+
+}
+.namber_items{
+	font-family: ReformaGroteskDemiC;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: ;/*change*/
+}
+.mini_subtitle{
+	font-family: ReformaGroteskDemiC;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #FFFFFF;
+	text-transform: uppercase;
+}
+.right_side_items{
+	width: 318px;
+	height: 177px;
+	border: 1px solid #898989;
+}
+.right_side{
+	position: relative;
+	top: 40px;
+}
+.block_3{
+	width: 100vw;
+	height: 140vh;
+	background: #141414;
+	padding-top: 80px;
+}
+.block_3_1{
+	width: 1296px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.block_items{
+	width: 486px;
+	height: 350px;
+}
+.item_img{
+	width: 416px;
+	height: 350px;
+}
+.item_img_background{
+	background-image: url("img/Rectangle 45.jpg");
+}
+.item_img_background2{
+	background-image: url("img/Rectangle 47.jpg");
+}
+.item_img_background3{
+	background-image: url("img/Rectangle 49.jpg");
+}
+.item_red_box{
+	width: 366px;
+	height: 70px;
+	background: #DB3138;
+	margin: 0 auto;
+	position: relative;
+	top: -35px;
+}
+.item_text{
+	width: 286px;
+	height: 75px;
+	margin: 0 auto;
+	position: relative;
+	top: -77px;
+	font-family: ReformaGroteskDemiC;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 25px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;	
+}
+.block_3_2{
+	width: 1296px;
+	height: 670px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	position: relative;
+	top: 200px;
+}
+.block_3_2_left{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 636px;
+}
+.left_item{
+	width: 526px;
+	height: 220px;
+
+}
+.left_item2{
+	height: 120px;
+}
+.title_icon{
+	width: 56px;
+	height: 70px;
+}
+.title_icon1{
+	background-image: url("img/image 65 (Traced).png");
+}
+.title_icon2{
+	background-image: url("img/image 66 (Traced).png");
+	height: 45px;
+}
+.title_icon3{
+	background-image: url("img/image 67 (Traced).png");
+	width: 70px;
+}
+.item_title{
+	display: flex;
+	justify-content: flex-start;
+}
+.title_text{
+	font-family: ReformaGroteskDemiC;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 45px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-left: 40px;
+}
+.item_subtitle{
+	font-family: ReformaGroteskMediumC;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0.03em;
+	text-align: left;
+	color: #ffffff;
+	margin-top: 20px;
+}
+.block_3_rect{
+	position: relative;
+	top: 55px;
+}
+.block_3_2_right{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 636px;
+	height: 670px;
+}
+.right_item{
+	width: 636px;
+}
+.right_item_img{
+	width: 636px;
+	height: 550px;
+	background-image: url("img/Rectangle 52.jpg");
+}
+.right_item_subtitle{
+	width: 422px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: ReformaGroteskDemiC;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 25px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+
+}
+.block_4{
+	width: 100vw;
+	height: 100vh;
+	background: #141414;
+}
+.block_4_title{
+	margin: 0 auto;
+	width: 636px;
+	font-family: ReformaGroteskDemiC;
+	font-size: 52px;
+	font-weight: 600;
+	line-height: 73px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+
+}
+.block_4_under_title{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 10vw;
+	/*position: relative;
+	top: 40px;*/
+	margin-top: 40px;
+	margin-bottom: 61px;
+}
+.block_4_choice{
+	width: 450px;
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	/*position: relative;
+	top: 60px;*/
+}
+.choice_left{
+	width: 181px;
+	height: 75px;
+	background: #DB3138;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.choice_left_text{
+	font-family: ReformaGroteskDemiC;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 45px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #FFFFFF;
+}
+.choice_right{
+	width: 181px;
+	height: 75px;
+	/*background: #DB3138;*/
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.choice_right_text{
+	font-family: ReformaGroteskDemiC;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 45px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #FFFFFF;
+}
+.block_4_info{
+	width: 1296px;
+	height: 428px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.info_items{
+	width: 306px;
+	height: 428px;
+	margin: 0 auto;
+	margin-top: 86px;
+	border: 1px solid #898989;
+}
+.info_items_icon{
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+}
+.info_items_icon1{
+	background-image: url("img/image 68 (Traced).png");
+	height: 56px;
+	margin-top: 86px;
+}
+.info_items_icon2{
+	background-image: url("img/image 65 (Traced).png");
+	width: 56px;
+	margin-top: 79px;
+}
+.info_items_icon3{
+	background-image: url("img/image 66 (Traced).png");
+	height: 45px;
+	margin-top: 91px;
+}
+.info_items_icon4{
+	background-image: url("img/image 67 (Traced).png");
+	margin-top: 79px;
+}
+.info_items_title{
+	font-family: ReformaGroteskDemiC;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #ffffff;
+}
+.info_items_title1{
+	margin-top: 27px;
+}
+.info_items_title2{
+	margin-top: 20px;
+}
+.info_items_title3{
+	margin-top: 33px;
+}
+.info_items_title4{
+	margin-top: 20px;
+}
+.info_items_subtitle{
+	width: 226px;
+	height: 88px;
+	margin: 0 auto;
+	font-family: ReformaGroteskDemiC;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.info_items_but{
+	width: 93px;
+	height: 41px;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.info_items_but_background{
+	height: 41px;
+	width: 58px;
+	background: #DB3138;
+}
+.info_items_but_text{
+	font-family: ReformaGroteskDemiC;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 25px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	top: -35px;
+	left: 10px;
+}
+.block_5{
+	width: 100vw;
+	height: 80vh;
+	background: #141414;
+}
+.block_5_1{
+	width: 1296px;	
+	height: 662px;
+	display: flex;	
+	justify-content: space-between;
+	margin: 0 auto;	
+}
+.block_5_1_left{
+	width: 636px;
+	height: 662px;
+	
+}
+.left_img{
+	background-image: url("img/Rectangle 53.jpg");
+	width: 636px;	
+	height: 550px;	
+}
+.left_title{
+	width: 422px;
+	height: 50px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: ReformaGroteskDemiC;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 25px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+.block_5_1_right{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 526px;
+	height: 662px;
+}
+.right_item1{
+	width: 526px;
+	height: 158px;
+
+}
+.left_item2{
+	height: 120px;
+}
+.block_5_1_right_item_title_icon{
+	width: 56px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+}
+.icon1{
+	background-image: url("img/image 68 (Traced).png");
+	height: 56px;	
+	position: relative;
+	top: 15px;
+}
+.icon2{
+	background-image: url("img/image 65 (Traced).png");
+}
+.icon3{
+	background-image: url("img/image 66 (Traced).png");
+	height: 45px;	
+	position: relative;
+	top: 15px;
+}
+.block_5_1_right_item_title{
+	display: flex;
+	justify-content: flex-start;
+	padding-bottom: 30px;
+	height: 70px;
+}
+.block_5_1_right_item_title_text{
+	font-family: ReformaGroteskDemiC;
+	font-size: 32px;
+	font-weight: 600;
+	line-height: 45px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-left: 40px;
+	display: flex;	
+	align-items: center;	
+}
+.block_5_1_right_item_subtitle{
+	font-family: ReformaGroteskMediumC;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0.03em;
+	text-align: left;
+	color: #ffffff;
+}
+.block_4_under_title2{
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	width: 10vw;
+	height: 94px;	
+	align-items: center;	
+}
+.block_6{
+	width: 100vw;
+	height: 101vh;
+	background: #141414;
+}
+.block_6_title{
+	margin: 0 auto;
+	font-family: ReformaGroteskDemiC;
+	font-size: 52px;
+	font-weight: 600;
+	line-height: 73px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+.block_6_under_title{
+	top: 0;
+	margin-top: 40px;
+}
+.block_6_gallery{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100vw;
+	height: 840px;
+	margin-top: 61px;
+}
+.gallery_items{
+	width: 100vw;
+	height: 280px;
+	display: flex;
+	justify-content: space-between;
+}
+.gallery_items_elements{
+	width: 320px;
+	height: 280px;
+}
+.gallery_items_elements1{
+	background-image: url("img/Rectangle 56.jpg");
+}
+.gallery_items_elements2{
+	background-image: url("img/Rectangle 57.jpg");
+}
+.gallery_items_elements3{
+	background-image: url("img/Rectangle 58.jpg");
+}
+.gallery_items_elements7{
+	background-image: url("img/Rectangle 61.jpg");
+}
+.gallery_items_elements8{
+	background-image: url("img/Rectangle 60.jpg");
+}
+.gallery_items_elements9{
+	background-image: url("img/Rectangle 59.jpg");
+}
+.block_7{
+	width: 100vw;
+	height: 70vh;
+	background: #141414;
+}
+.block_7_title{
+	margin: 0 auto;
+	font-family: ReformaGroteskDemiC;
+	font-size: 52px;
+	font-weight: 600;
+	line-height: 73px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding-top: 12vh;
+}
+.block_7_container{
+	width: 636px;
+	height: 380px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.form__container__input{
+	width: 306px;
+	height: 47px;
+}
+.form__container__input2{
+	width: 526px;
+	height: 150px;
+}
+#firstName{
+	width: 281px;
+	height: 47px;
+	background: #141414;
+	border: 1px solid #DB3138;
+	color: #ffffff;
+	font-family: ReformaGroteskDemiC;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	padding-left: 25px;
+	transition: 500ms;
+}
+#firstName:focus, input:focus{
+	border: 1px solid #898989;
+}
+#firstName::placeholder{
+	font-family: ReformaGroteskDemiC;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+#number{
+	width: 281px;
+	height: 47px;
+	background: #141414;
+	border: 1px solid #898989;
+	color: #ffffff;
+	font-family: ReformaGroteskDemiC;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	padding-left: 25px;
+	transition: 500ms;
+}
+#number:focus, input:focus{
+	border: 1px solid #DB3138;
+}
+#number::placeholder{
+	font-family: ReformaGroteskDemiC;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	text-transform: uppercase;
+	color: #898989;
+}
+#text_area{
+	width: 526px;
+	height: 150px;
+	background: #141414;
+	border: 1px solid #898989;
+	color: #ffffff;
+	font-family: ReformaGroteskDemiC;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	padding-left: 25px;
+	padding-top: 25px;
+	transition: 500ms;
+}
+#text_area:focus, input:focus{
+  outline: none;
+  border: 1px solid #DB3138;
+}
+#text_area::placeholder{
+	font-family: ReformaGroteskDemiC;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	text-transform: uppercase;
+	color: #898989;
+	position: absolute;
+	top: 25px;
+}
+.block_7_container_icons{
+	width: 40px;
+	height: 150px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+
+}
+.icons_item{
+	display: block;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #898989;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icons_block_7{
+	
+}
+.icons_block_7_1{
+	background-image: url("img/Vector.png");
+	width: 16.6px;
+	height: 14px;
+}
+.icons_block_7_2{
+	background-image: url("img/Vector2.png");
+	width: 20px;
+	height: 13.3px;
+}
+.icons_block_7_3{
+	background-image: url("img/Vector3.png");
+	width: 20px;
+	height: 12px;
+}
+.block_7_container_but{
+	width: 119px;
+	height: 61px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.but_a{
+	display: block;
+	width: 119px;
+	height: 61px;
+}
+.but_background{
+	width: 71px;
+	height: 61px;
+	background: #DB3138;
+}
+.but_text{
+	font-family: ReformaGroteskDemiC;
+	font-size: 24px;
+	font-weight: 600;
+	line-height: 34px;
+	letter-spacing: 0.05em;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	top: -48px;
+	margin-left: 28px;
+}
+.block_7_container_contact{
+	width: 300px;
+	height: 61px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.contact_item{
+	height: 24px;
+	display: flex;
+	/*justify-content: space-between;*/
+}
+.contact_item1{
+	width: 300px;
+}
+.contact_item2{
+	width: 130px;
+	margin-left: 15px;
+}
+.contact_item3{
+	width: 115px;
+	margin-left: 33px;
+}
+.contact_item_icon_block{
+	width: 24px;
+	height: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.contact_item_icon1{
+	background-image: url("img/Vector4.png");
+	width: 18px;
+	height: 21px;
+}
+.contact_item_icon2{
+	background-image: url("img/Vector5.png");
+	width: 16px;
+	height: 16px;
+}
+.contact_item_icon3{
+	background-image: url("img/Vector6.png");
+	width: 19.5px;
+	height: 15.4px;
+}
+.contact_item_text{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.item_text_a{
+	font-family: ReformaGroteskDemiC;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-left: 8px;
+}
+.block_8{
+	width: 100vw;
+	height: 90px;
+	background: #141414;
+	display: flex;
+	align-items: center;
+}
+.block_8_container{
+	width: 1296px;
+	height: 29px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.container_left_text{
+	width: 598px;
+	height: 20px;
+	font-family: ReformaGroteskDemiC;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 22px;
+	letter-spacing: 0.05em;
+	text-align: left;
+	text-transform: uppercase;
+	color: #7B7B7B;
+}
+.container_right_nav{
+	width: 521px;
+	height: 29px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.nav_item{
+	font-family: ReformaGroteskMediumC;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 29px;
+	letter-spacing: 0.03em;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	color: #ffffff;
+}
+
+
+
+
+@font-face{
+	font-family: "ReformaGroteskBoldC";
+	src: url("fonts/ReformaGroteskBoldC.ttf");
+}
+
+
+@font-face{
+	font-family: "ReformaGroteskMediumC";
+	src: url("fonts/ReformaGroteskMedium.woff");
+}
+@font-face{
+	font-family: "ReformaGroteskDemiC";
+	src: url("fonts/ReformaGroteskDemiC.ttf");
+}
